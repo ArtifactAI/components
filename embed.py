@@ -6,7 +6,7 @@ from keys import OPENAI_API_KEY
 os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
 
 # Configure the folders to include for embedding
-FOLDERS_TO_EMBED = ["mechanics"]
+FOLDERS_TO_EMBED = ["mechanics", "control"]
 
 # The file types to embed (you can add more extensions if needed)
 ALLOWED_EXTENSIONS = ['.ipynb']  # Only embed these file types
