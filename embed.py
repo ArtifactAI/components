@@ -53,7 +53,7 @@ def process_repository(folders, collection):
 # Main execution
 if __name__ == "__main__":
     # Initialize ChromaDB with persistent storage
-    client = chromadb.PersistentClient(path="./chroma_db")
+    client = chromadb.PersistentClient(path="./db")
     
     # Create or get the collection
     collection = client.get_or_create_collection("code-embeddings")
